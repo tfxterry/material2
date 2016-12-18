@@ -34,7 +34,13 @@
       </md-select>
     </p>
 
-    <md-checkbox [(ngModel)]="config.disableClose">Disable close</md-checkbox>
+    <p>
+      <md-input [(ngModel)]="config.data.message" placeholder="Dialog message"></md-input>
+    </p>
+
+    <p>
+      <md-checkbox [(ngModel)]="config.disableClose">Disable close</md-checkbox>
+    </p>
   </md-card-content>
 </md-card>
 
